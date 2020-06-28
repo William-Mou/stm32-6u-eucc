@@ -232,7 +232,7 @@ void DMA1_Stream6_IRQHandler(void)
 */
 volatile int8_t FPA_CAN_RXOK = 0;
 volatile int8_t FPA_CAN_RXMSG = 0x00;
-
+volatile uint32_t FPA_CAN_RXId = 0x00;
 void CAN1_RX0_IRQHandler(void)
 {
 	//print_string_DMA("CAN1_RX0\r\n");
@@ -240,14 +240,8 @@ void CAN1_RX0_IRQHandler(void)
 	print_u32x_DMA(CanHandle.Instance->MSR);*/
 	FPA_CAN_RXMSG = CanHandle.pRxMsg->Data[0];
 	FPA_CAN_RXOK = 1;
-	if(FPA_CAN_RXMSG == 0x01)
-	{
-		HAL_GPIO_WritePin(GPIOG,GPIO_PIN_13, GPIO_PIN_SET);
-	}
-	if(FPA_CAN_RXMSG == 0x02)
-	{
-		HAL_GPIO_WritePin(GPIOG,GPIO_PIN_13, GPIO_PIN_RESET);
-	}
+	FPA_CAN_RXId = CanHandle.pRxMsg->StdId;
+
 	HAL_CAN_IRQHandler(&CanHandle);
 }
 

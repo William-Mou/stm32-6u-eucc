@@ -1,4 +1,4 @@
-src/FPA.o: ../src/FPA.c ../src/FPA.h ../include/main.h \
+src/EUCC.o: ../src/EUCC.c ../src/EUCC.h ../include/main.h \
  ../system/include/stm32f4xx/stm32f4xx_hal.h \
  ../include/stm32f4xx_hal_conf.h \
  ../system/include/stm32f4xx/stm32f4xx_hal_rcc.h \
@@ -33,7 +33,7 @@ src/FPA.o: ../src/FPA.c ../src/FPA.h ../include/main.h \
  ../include/HAL_CAN_INIT.h ../system/include/cmsis/arm_math.h \
  ../system/include/cmsis/stm32f429xx.h
 
-../src/FPA.h:
+../src/EUCC.h:
 
 ../include/main.h:
 

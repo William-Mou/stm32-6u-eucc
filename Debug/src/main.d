@@ -31,7 +31,7 @@ src/main.o: ../src/main.c ../include/main.h \
  ../system/include/stm32f4xx/stm32f4xx_hal_uart.h \
  ../include/stm32f429i_discovery.h ../include/HAL_UART_out.h \
  ../include/HAL_CAN_INIT.h ../system/include/cmsis/arm_math.h \
- ../system/include/cmsis/stm32f429xx.h ../src/FPA.h
+ ../system/include/cmsis/stm32f429xx.h ../src/EUCC.h
 
 ../include/main.h:
 
@@ -107,4 +107,4 @@ src/main.o: ../src/main.c ../include/main.h \
 
 ../system/include/cmsis/stm32f429xx.h:
 
-../src/FPA.h:
+../src/EUCC.h:

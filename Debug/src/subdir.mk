@@ -4,7 +4,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../src/FPA.c \
+../src/EUCC.c \
 ../src/HAL_CAN_INIT.c \
 ../src/HAL_UART_out.c \
 ../src/main.c \
@@ -13,7 +13,7 @@ C_SRCS += \
 ../src/stm32f4xx_it.c 
 
 OBJS += \
-./src/FPA.o \
+./src/EUCC.o \
 ./src/HAL_CAN_INIT.o \
 ./src/HAL_UART_out.o \
 ./src/main.o \
@@ -22,7 +22,7 @@ OBJS += \
 ./src/stm32f4xx_it.o 
 
 C_DEPS += \
-./src/FPA.d \
+./src/EUCC.d \
 ./src/HAL_CAN_INIT.d \
 ./src/HAL_UART_out.d \
 ./src/main.d \

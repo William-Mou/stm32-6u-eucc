@@ -28,7 +28,7 @@
 extern CAN_HandleTypeDef CanHandle;
 extern volatile int8_t FPA_CAN_RXOK;
 extern volatile int8_t FPA_CAN_RXMSG;
-
+extern volatile uint32_t FPA_CAN_RXId;
 void FPA_Handler(void);
 
 #ifdef __cplusplus
