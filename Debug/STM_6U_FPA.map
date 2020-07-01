@@ -12685,128 +12685,128 @@ END GROUP
                 0x080024f8       0xa0 ./system/src/cmsis/system_stm32f4xx.o
                 0x080024f8                SystemCoreClockUpdate
  .text.EUCC_Handler
-                0x08002598       0xe8 ./src/EUCC.o
+                0x08002598      0x100 ./src/EUCC.o
                 0x08002598                EUCC_Handler
  .text.STM32f4_CAN_Init
-                0x08002680      0x128 ./src/HAL_CAN_INIT.o
-                0x08002680                STM32f4_CAN_Init
+                0x08002698      0x124 ./src/HAL_CAN_INIT.o
+                0x08002698                STM32f4_CAN_Init
  .text.STM32f4_UART_DMA_Init
-                0x080027a8      0x180 ./src/HAL_UART_out.o
-                0x080027a8                STM32f4_UART_DMA_Init
+                0x080027bc      0x180 ./src/HAL_UART_out.o
+                0x080027bc                STM32f4_UART_DMA_Init
  .text.print_string_DMA
-                0x08002928       0x48 ./src/HAL_UART_out.o
-                0x08002928                print_string_DMA
+                0x0800293c       0x48 ./src/HAL_UART_out.o
+                0x0800293c                print_string_DMA
  .text.print_Array1D_8hex_DMA
-                0x08002970       0x60 ./src/HAL_UART_out.o
-                0x08002970                print_Array1D_8hex_DMA
+                0x08002984       0x60 ./src/HAL_UART_out.o
+                0x08002984                print_Array1D_8hex_DMA
  .text.SystemClock_Config
-                0x080029d0       0x84 ./src/main.o
+                0x080029e4       0x84 ./src/main.o
  .text.HAL_UART_TxCpltCallback
-                0x08002a54        0xc ./src/main.o
-                0x08002a54                HAL_UART_TxCpltCallback
+                0x08002a68        0xc ./src/main.o
+                0x08002a68                HAL_UART_TxCpltCallback
  .text.HAL_UART_RxCpltCallback
-                0x08002a60        0xc ./src/main.o
-                0x08002a60                HAL_UART_RxCpltCallback
+                0x08002a74        0xc ./src/main.o
+                0x08002a74                HAL_UART_RxCpltCallback
  .text.HAL_UART_ErrorCallback
-                0x08002a6c        0x2 ./src/main.o
-                0x08002a6c                HAL_UART_ErrorCallback
+                0x08002a80        0x2 ./src/main.o
+                0x08002a80                HAL_UART_ErrorCallback
  .text.Error_Handler
-                0x08002a6e        0x2 ./src/main.o
-                0x08002a6e                Error_Handler
- .text.main     0x08002a70       0x6c ./src/main.o
-                0x08002a70                main
+                0x08002a82        0x2 ./src/main.o
+                0x08002a82                Error_Handler
+ .text.main     0x08002a84       0x6c ./src/main.o
+                0x08002a84                main
  .text.HAL_CAN_RxCpltCallback
-                0x08002adc       0x64 ./src/main.o
-                0x08002adc                HAL_CAN_RxCpltCallback
+                0x08002af0       0x64 ./src/main.o
+                0x08002af0                HAL_CAN_RxCpltCallback
  .text.BSP_LED_Init
-                0x08002b40       0x78 ./src/stm32f429i_discovery.o
-                0x08002b40                BSP_LED_Init
+                0x08002b54       0x78 ./src/stm32f429i_discovery.o
+                0x08002b54                BSP_LED_Init
  .text.HAL_CAN_MspInit
-                0x08002bb8       0x84 ./src/stm32f4xx_hal_msp.o
-                0x08002bb8                HAL_CAN_MspInit
+                0x08002bcc       0x84 ./src/stm32f4xx_hal_msp.o
+                0x08002bcc                HAL_CAN_MspInit
  .text.NMI_Handler
-                0x08002c3c        0x2 ./src/stm32f4xx_it.o
-                0x08002c3c                NMI_Handler
+                0x08002c50        0x2 ./src/stm32f4xx_it.o
+                0x08002c50                NMI_Handler
  .text.HardFault_Handler
-                0x08002c3e        0x2 ./src/stm32f4xx_it.o
-                0x08002c3e                HardFault_Handler
+                0x08002c52        0x2 ./src/stm32f4xx_it.o
+                0x08002c52                HardFault_Handler
  .text.MemManage_Handler
-                0x08002c40        0x2 ./src/stm32f4xx_it.o
-                0x08002c40                MemManage_Handler
+                0x08002c54        0x2 ./src/stm32f4xx_it.o
+                0x08002c54                MemManage_Handler
  .text.BusFault_Handler
-                0x08002c42        0x2 ./src/stm32f4xx_it.o
-                0x08002c42                BusFault_Handler
+                0x08002c56        0x2 ./src/stm32f4xx_it.o
+                0x08002c56                BusFault_Handler
  .text.UsageFault_Handler
-                0x08002c44        0x2 ./src/stm32f4xx_it.o
-                0x08002c44                UsageFault_Handler
+                0x08002c58        0x2 ./src/stm32f4xx_it.o
+                0x08002c58                UsageFault_Handler
  .text.SVC_Handler
-                0x08002c46        0x2 ./src/stm32f4xx_it.o
-                0x08002c46                SVC_Handler
+                0x08002c5a        0x2 ./src/stm32f4xx_it.o
+                0x08002c5a                SVC_Handler
  .text.DebugMon_Handler
-                0x08002c48        0x2 ./src/stm32f4xx_it.o
-                0x08002c48                DebugMon_Handler
+                0x08002c5c        0x2 ./src/stm32f4xx_it.o
+                0x08002c5c                DebugMon_Handler
  .text.PendSV_Handler
-                0x08002c4a        0x2 ./src/stm32f4xx_it.o
-                0x08002c4a                PendSV_Handler
+                0x08002c5e        0x2 ./src/stm32f4xx_it.o
+                0x08002c5e                PendSV_Handler
  .text.SysTick_Handler
-                0x08002c4c        0x8 ./src/stm32f4xx_it.o
-                0x08002c4c                SysTick_Handler
+                0x08002c60        0x8 ./src/stm32f4xx_it.o
+                0x08002c60                SysTick_Handler
  .text.DMA2_Stream5_IRQHandler
-                0x08002c54       0x10 ./src/stm32f4xx_it.o
-                0x08002c54                DMA2_Stream5_IRQHandler
+                0x08002c68       0x10 ./src/stm32f4xx_it.o
+                0x08002c68                DMA2_Stream5_IRQHandler
  .text.DMA2_Stream7_IRQHandler
-                0x08002c64       0x10 ./src/stm32f4xx_it.o
-                0x08002c64                DMA2_Stream7_IRQHandler
+                0x08002c78       0x10 ./src/stm32f4xx_it.o
+                0x08002c78                DMA2_Stream7_IRQHandler
  .text.USART1_IRQHandler
-                0x08002c74       0x10 ./src/stm32f4xx_it.o
-                0x08002c74                USART1_IRQHandler
+                0x08002c88       0x10 ./src/stm32f4xx_it.o
+                0x08002c88                USART1_IRQHandler
  .text.DMA1_Stream5_IRQHandler
-                0x08002c84        0x2 ./src/stm32f4xx_it.o
-                0x08002c84                DMA1_Stream5_IRQHandler
+                0x08002c98        0x2 ./src/stm32f4xx_it.o
+                0x08002c98                DMA1_Stream5_IRQHandler
  .text.DMA1_Stream6_IRQHandler
-                0x08002c86        0x2 ./src/stm32f4xx_it.o
-                0x08002c86                DMA1_Stream6_IRQHandler
+                0x08002c9a        0x2 ./src/stm32f4xx_it.o
+                0x08002c9a                DMA1_Stream6_IRQHandler
  .text.CAN1_RX0_IRQHandler
-                0x08002c88       0x30 ./src/stm32f4xx_it.o
-                0x08002c88                CAN1_RX0_IRQHandler
+                0x08002c9c       0x30 ./src/stm32f4xx_it.o
+                0x08002c9c                CAN1_RX0_IRQHandler
  .text.CAN2_RX0_IRQHandler
-                0x08002cb8       0x10 ./src/stm32f4xx_it.o
-                0x08002cb8                CAN2_RX0_IRQHandler
+                0x08002ccc       0x10 ./src/stm32f4xx_it.o
+                0x08002ccc                CAN2_RX0_IRQHandler
  .text.CAN1_RX1_IRQHandler
-                0x08002cc8       0x10 ./src/stm32f4xx_it.o
-                0x08002cc8                CAN1_RX1_IRQHandler
+                0x08002cdc       0x10 ./src/stm32f4xx_it.o
+                0x08002cdc                CAN1_RX1_IRQHandler
  .text.CAN2_RX1_IRQHandler
-                0x08002cd8       0x10 ./src/stm32f4xx_it.o
-                0x08002cd8                CAN2_RX1_IRQHandler
+                0x08002cec       0x10 ./src/stm32f4xx_it.o
+                0x08002cec                CAN2_RX1_IRQHandler
  .text.CAN1_TX_IRQHandler
-                0x08002ce8       0x10 ./src/stm32f4xx_it.o
-                0x08002ce8                CAN1_TX_IRQHandler
+                0x08002cfc       0x10 ./src/stm32f4xx_it.o
+                0x08002cfc                CAN1_TX_IRQHandler
  .text.CAN2_TX_IRQHandler
-                0x08002cf8       0x10 ./src/stm32f4xx_it.o
-                0x08002cf8                CAN2_TX_IRQHandler
- .text          0x08002d08      0x370 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
-                0x08002d08                __aeabi_drsub
-                0x08002d10                __aeabi_dsub
-                0x08002d10                __subdf3
-                0x08002d14                __aeabi_dadd
-                0x08002d14                __adddf3
-                0x08002f8c                __floatunsidf
-                0x08002f8c                __aeabi_ui2d
-                0x08002fac                __floatsidf
-                0x08002fac                __aeabi_i2d
-                0x08002fd0                __aeabi_f2d
-                0x08002fd0                __extendsfdf2
-                0x0800300c                __floatundidf
-                0x0800300c                __aeabi_ul2d
-                0x0800301c                __floatdidf
-                0x0800301c                __aeabi_l2d
- .text.__errno  0x08003078        0xc c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-errno.o)
-                0x08003078                __errno
- .text          0x08003084      0x134 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-memcpy.o)
-                0x08003084                memcpy
- .text.sprintf  0x080031b8       0x4c c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-sprintf.o)
-                0x080031b8                sprintf
- *fill*         0x08003204       0x3c 
+                0x08002d0c       0x10 ./src/stm32f4xx_it.o
+                0x08002d0c                CAN2_TX_IRQHandler
+ .text          0x08002d1c      0x370 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
+                0x08002d1c                __aeabi_drsub
+                0x08002d24                __aeabi_dsub
+                0x08002d24                __subdf3
+                0x08002d28                __aeabi_dadd
+                0x08002d28                __adddf3
+                0x08002fa0                __floatunsidf
+                0x08002fa0                __aeabi_ui2d
+                0x08002fc0                __floatsidf
+                0x08002fc0                __aeabi_i2d
+                0x08002fe4                __aeabi_f2d
+                0x08002fe4                __extendsfdf2
+                0x08003020                __floatundidf
+                0x08003020                __aeabi_ul2d
+                0x08003030                __floatdidf
+                0x08003030                __aeabi_l2d
+ .text.__errno  0x0800308c        0xc c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-errno.o)
+                0x0800308c                __errno
+ .text          0x08003098      0x134 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-memcpy.o)
+                0x08003098                memcpy
+ .text.sprintf  0x080031cc       0x4c c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-sprintf.o)
+                0x080031cc                sprintf
+ *fill*         0x08003218       0x28 
  .text          0x08003240       0xdc c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-strlen.o)
                 0x08003240                strlen
  .text._svfprintf_r
@@ -13454,7 +13454,7 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000    0x22a60
+.debug_info     0x00000000    0x22a94
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000     0x11d9 ./system/src/stm32f4xx/stm32f4xx_hal.o
  .debug_info    0x000011d9     0x1989 ./system/src/stm32f4xx/stm32f4xx_hal_can.o
@@ -13478,13 +13478,13 @@ END GROUP
  .debug_info    0x00013fe7     0x1025 ./system/src/cortexm/exception_handlers.o
  .debug_info    0x0001500c       0x87 ./system/src/cmsis/startup_stm32f429xx.o
  .debug_info    0x00015093      0x4cc ./system/src/cmsis/system_stm32f4xx.o
- .debug_info    0x0001555f     0x15fb ./src/EUCC.o
- .debug_info    0x00016b5a     0x1c76 ./src/HAL_CAN_INIT.o
- .debug_info    0x000187d0     0x2ced ./src/HAL_UART_out.o
- .debug_info    0x0001b4bd     0x1a78 ./src/main.o
- .debug_info    0x0001cf35     0x2811 ./src/stm32f429i_discovery.o
- .debug_info    0x0001f746     0x1a57 ./src/stm32f4xx_hal_msp.o
- .debug_info    0x0002119d     0x18c3 ./src/stm32f4xx_it.o
+ .debug_info    0x0001555f     0x162f ./src/EUCC.o
+ .debug_info    0x00016b8e     0x1c76 ./src/HAL_CAN_INIT.o
+ .debug_info    0x00018804     0x2ced ./src/HAL_UART_out.o
+ .debug_info    0x0001b4f1     0x1a78 ./src/main.o
+ .debug_info    0x0001cf69     0x2811 ./src/stm32f429i_discovery.o
+ .debug_info    0x0001f77a     0x1a57 ./src/stm32f4xx_hal_msp.o
+ .debug_info    0x000211d1     0x18c3 ./src/stm32f4xx_it.o
 
 .debug_abbrev   0x00000000     0x47a5
  *(.debug_abbrev)
@@ -13518,7 +13518,7 @@ END GROUP
  .debug_abbrev  0x0000426c      0x299 ./src/stm32f4xx_hal_msp.o
  .debug_abbrev  0x00004505      0x2a0 ./src/stm32f4xx_it.o
 
-.debug_line     0x00000000     0xd672
+.debug_line     0x00000000     0xd677
  *(.debug_line)
  .debug_line    0x00000000      0x816 ./system/src/stm32f4xx/stm32f4xx_hal.o
  .debug_line    0x00000816      0xb7a ./system/src/stm32f4xx/stm32f4xx_hal_can.o
@@ -13542,13 +13542,13 @@ END GROUP
  .debug_line    0x0000932a      0x4f7 ./system/src/cortexm/exception_handlers.o
  .debug_line    0x00009821       0x88 ./system/src/cmsis/startup_stm32f429xx.o
  .debug_line    0x000098a9      0x1a7 ./system/src/cmsis/system_stm32f4xx.o
- .debug_line    0x00009a50      0x719 ./src/EUCC.o
- .debug_line    0x0000a169      0x7b5 ./src/HAL_CAN_INIT.o
- .debug_line    0x0000a91e      0xcb2 ./src/HAL_UART_out.o
- .debug_line    0x0000b5d0      0x78f ./src/main.o
- .debug_line    0x0000bd5f      0x9a9 ./src/stm32f429i_discovery.o
- .debug_line    0x0000c708      0x722 ./src/stm32f4xx_hal_msp.o
- .debug_line    0x0000ce2a      0x848 ./src/stm32f4xx_it.o
+ .debug_line    0x00009a50      0x71e ./src/EUCC.o
+ .debug_line    0x0000a16e      0x7b5 ./src/HAL_CAN_INIT.o
+ .debug_line    0x0000a923      0xcb2 ./src/HAL_UART_out.o
+ .debug_line    0x0000b5d5      0x78f ./src/main.o
+ .debug_line    0x0000bd64      0x9a9 ./src/stm32f429i_discovery.o
+ .debug_line    0x0000c70d      0x722 ./src/stm32f4xx_hal_msp.o
+ .debug_line    0x0000ce2f      0x848 ./src/stm32f4xx_it.o
 
 .debug_frame    0x00000000     0x342c
  *(.debug_frame)
@@ -13608,7 +13608,7 @@ END GROUP
  .debug_frame   0x000033cc       0x2c c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_aeabi_uldivmod.o)
  .debug_frame   0x000033f8       0x34 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_udivmoddi4.o)
 
-.debug_str      0x00000000    0x91f6a
+.debug_str      0x00000000    0x91f69
  *(.debug_str)
  .debug_str     0x00000000    0x89479 ./system/src/stm32f4xx/stm32f4xx_hal.o
                               0x89939 (size before relaxing)
@@ -13652,19 +13652,19 @@ END GROUP
                               0x49a84 (size before relaxing)
  .debug_str     0x00090f5e       0x46 ./system/src/cmsis/system_stm32f4xx.o
                               0x44c20 (size before relaxing)
- .debug_str     0x00090fa4      0x145 ./src/EUCC.o
-                              0x8badf (size before relaxing)
- .debug_str     0x000910e9      0x120 ./src/HAL_CAN_INIT.o
-                              0x8c162 (size before relaxing)
- .debug_str     0x00091209      0x2f0 ./src/HAL_UART_out.o
+ .debug_str     0x00090fa4      0x146 ./src/EUCC.o
+                              0x8bae0 (size before relaxing)
+ .debug_str     0x000910ea      0x11e ./src/HAL_CAN_INIT.o
+                              0x8c14d (size before relaxing)
+ .debug_str     0x00091208      0x2f0 ./src/HAL_UART_out.o
                               0x8c32a (size before relaxing)
- .debug_str     0x000914f9       0x72 ./src/main.o
-                              0x8bda9 (size before relaxing)
- .debug_str     0x0009156b      0x8e8 ./src/stm32f429i_discovery.o
+ .debug_str     0x000914f8       0x72 ./src/main.o
+                              0x8bdaa (size before relaxing)
+ .debug_str     0x0009156a      0x8e8 ./src/stm32f429i_discovery.o
                               0x8afb6 (size before relaxing)
- .debug_str     0x00091e53       0x1b ./src/stm32f4xx_hal_msp.o
+ .debug_str     0x00091e52       0x1b ./src/stm32f4xx_hal_msp.o
                               0x8c043 (size before relaxing)
- .debug_str     0x00091e6e       0xfc ./src/stm32f4xx_it.o
+ .debug_str     0x00091e6d       0xfc ./src/stm32f4xx_it.o
                               0x8bc8e (size before relaxing)
 
 .debug_loc      0x00000000     0x919e

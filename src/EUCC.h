@@ -14,7 +14,7 @@
 
 #include "main.h"
 
-#define getOP(DATA) (DATA>>4)& 0xF
+#define getOP(DATA) (DATA>>4) & 0xF
 #define getVAL(DATA) (DATA&0xF)
 #define TelID(OP,VAL) (OP<<4|VAL)
 

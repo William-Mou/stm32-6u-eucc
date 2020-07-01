@@ -8,10 +8,10 @@
 /*#include <stdio.h>*/
 #include "stm32f429xx.h"
 #include "main.h"
-#define CAN_LOOPBACK
+//#define CAN_LOOPBACK
 
 extern volatile int8_t FPA_CAN_RXOK;
-//#define CAN_NORMAL
+#define CAN_NORMAL
 void STM32f4_CAN_Init(CAN_HandleTypeDef *hcan,   CAN_FilterConfTypeDef *FilterConf, CanTxMsgTypeDef *TxMsg, CanRxMsgTypeDef *RxMsg)
 {
 	/*Enable CAN & GPIO clock*/
